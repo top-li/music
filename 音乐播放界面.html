@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QQ音乐</title>
+  <script src="jquery-3.4.1.min.js"></script>
+  <script src="https://use.fontawesome.com/8ed1c48b74.js"></script>
+  <!-- <script src="jquery.mCustomScrollbar.concat.min.js"></script> -->
+  <script src="player.js"></script>
+  <script src="progress.js"></script>
+  <script src="index.js"></script>
+  
+
+  <!-- <link rel="stylesheet" href="jquery.mCustomScrollbar.css"> -->
+  <link rel="stylesheet" href="index.css">
+  
+  
+</head>
+<body>
+  <div class="header">
+    <h2 class="logo"><a href="">QQ音乐</a></h2>
+    <div class="goin">
+      <span class="denglu">登录</span>
+      <span class="shezhi">设置</span>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content-in">
+      <div class="box-left">
+        <div class="btn">
+          <button><i class="fa fa-heart-o" aria-hidden="true"></i>收藏</button>
+          <button><i class="fa fa-plus-square-o" aria-hidden="true"></i>添加到</button>
+          <button><i class="fa fa-download" aria-hidden="true"></i>下载</button>
+          <button><i class="fa fa-trash" aria-hidden="true"></i>删除</button>
+          <button><i class="fa fa-paint-brush" aria-hidden="true"></i>清空列表</button>
+        </div>
+        <div class="list" data-mcs-theme="minimal-drak">
+        <ul>
+          <li class="music-title">
+            <div class="check"></div>
+              <div class="number"></div>
+              <div class="song">歌曲</div>
+              <div class="singer">歌手</div>
+              <div class="time">时长</div>
+          </li>
+          <!-- <li class="music">
+            <div class="check"><i></i></div>
+              <div class="number">1</div>
+              <div class="song">月光
+                <div class="option">
+                  <a href="javascript::" title="播放"><i class="fa fa-play"  style="margin-left: 4px;"></i></a>
+                  <a href="javascript::" title="添加"><i class="fa fa-plus"></i></a>
+                  <a href="javascript::" title="下载"><i class="fa fa-arrow-down"></i></a>
+                  <a href="javascript::" title="分享"><i class="fa fa-share"></i></a>
+                </div>
+              </div>
+              <div class="singer">胡彦斌</div>
+              <div class="time">
+                <span>04:32</span>
+                <a href="javascript::" title="删除"><i class="fa fa-trash"></i></a>
+              </div>
+          </li> -->
+        </ul>
+        </div>
+      </div>
+      <div class="box-right">
+        <div class="song-info">
+          <a href="javascript::" class="song-infor-pic">
+            <img src="./images/lnj.jpg" alt="">
+          </a>
+          <div class="song-infor-name">歌曲名称：
+            <a href="javascript::" class="">复活</a>
+          </div>
+          <div class="song-infor-singer">歌手名：
+            <a href="javascript::" class="">乔任梁</a>
+          </div>
+          <div class="song-infor-ablum">专辑名：
+            <a href="javascript::" class="">复活系列</a>
+          </div>
+        </div>
+        <ul class="song-music">
+          <li class="cur">第一条歌词</li>
+          <li>第二条歌词</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="last">
+    <div class="last-in">
+      <a href="javascript:;" class="music-pre"></a>
+      <a href="javascript:;" class="music-play"></a>
+      <a href="javascript:;" class="music-next"></a>
+      <div class="message">
+        <div class="message-upper">
+          <span class="message-name">复活 / 乔任梁</span>
+          <span class="message-time">00:00 / 04:26</span>
+        </div>
+        <div class="message-lower">
+          <div class="message-line"></div>
+          <div class="message-dot"></div>
+        </div>
+      </div>
+      <a href="javascript::" class="music-mode"></a>
+      <a href="javascript::" class="music-like"></a>
+      <a href="javascript::" class="music-down"></a>
+      <a href="javascript::" class="music-cumment"></a>
+      <a href="javascript::" class="music-only"></a>
+      <div class="music-vieo">
+        <a href="javascript::" class="music-volume"></a>
+        <div class="volume-lower">
+          <div class="volume-line"></div>
+          <div class="volume-dot"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bg"></div>
+  <div class="bg-mask"></div>
+  <audio src=""></audio>
+</body>
+</html>
